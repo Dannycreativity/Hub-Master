@@ -1,0 +1,37 @@
+#arrow {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    height: 30px;
+    border-radius: 50px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.instructions {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    text-align: left;
+    margin: 1rem;
+}
+
+.instructions h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.instructions ol {
+    margin-left: 1.5rem;
+}

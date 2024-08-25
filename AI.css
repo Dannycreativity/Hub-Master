@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#turn-info {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.board {
+    display: none;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 0 auto;
+    width: max-content;
+}
+
+#area {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+    border: 2px white solid;
+}
+
+.cell.selected {
+    background-color: #e0e0e0;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: red;
+}
+
+.difficulty {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.turn-x {
+    background-color: lightblue;
+}
+
+.turn-o {
+    background-color: pink;
+}
+
+.difficulty button {
+    background-color: pink;
+    border: none;
+    color: black;
+    border: 1px solid black;
+    padding: 15px 40px;
+    margin-top: 40px;
+}
+
+#select{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+#hard{
+    display: none;
+}
+
+#arrow{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
